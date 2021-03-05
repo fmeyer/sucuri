@@ -24,7 +24,7 @@ mkShell {
     eval "$(starship init bash)"
 
     figlet "sucuri" | lolcat --freq 0.5
-    echo "A scratchpad python distro for data analysis\n"
-    echo "start a `jupyter notebook`"
+    echo "A scratchpad python distro for data analysis"
+    jupyter notebook
   '';
 }
